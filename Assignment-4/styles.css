@@ -1,0 +1,61 @@
+header {
+text-align: center;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+}
+img{
+    left: 32px;
+    position: relative;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+hr{
+    border-style:solid; 
+    border-color:rgb(5, 72, 25);
+     border-width:2px;
+}
+.home {
+    left: -208px;
+    top: 15px;
+    position: relative;
+    }
+
+body {
+    font-family: sans-serif;
+    width:980px; 
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0;
+    background-color: #fefffd;
+
+    }
+.submit{
+text-align: center;
+}
+h5{
+    text-align: center;
+}
+.about{
+    left: 391px;
+    position: relative;
+}
+.email{
+    top: -20px;
+    position: relative;
+    left: 336px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #d8f99e;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+

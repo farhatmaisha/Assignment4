@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Created by: Farhat Jahin Maisha -- Created on March 30 , 2024 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="image/college.jpg" alt="coverpic" class="coll">
+        <a href="https://www.centennialcollege.ca" target="_blank" class="home">Home page</a>
+        <h2>Course Evaluation Form</h2>
+        <p>
+            Please read the questions carefully and choose only one option.
+        </p>
+    </header>
+    <main>
+        <form>
+            <hr>
+            <fieldset>
+                <legend>Personal Info:</legend>
+                <p>
+                    <label for="txtFName">First Name:</label>
+                    <input id="txtFName" name="txtFName" size="25" tabindex="1" type="text" required="required">
+                </p>
+                <p>
+                    <label for="txtLName">Last Name:</label>
+                    <input id="txtLName" name="txtLName" size="25" tabindex="3" type="text" required="required">
+                </p>
+                <p>
+                    <label for="txtid">ID:</label>
+                    <input id="txtid" name="txtid" size="30" tabindex="5" type="text" required="required">
+                </p>
+                <p>
+                    <label for="optS">Semester:</label>
+                    <input id="optF" name="optSemester" tabindex="11" type="radio" value="Fall">Fall
+                    <input id="optW" name="optSemester" tabindex="13" type="radio" value="Winter">Winter
+                    <input id="optp" name="optSemester" tabindex="13" type="radio" value="Spring">Spring
+                </p>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend>Instructor:</legend>
+                <p>
+                    <label for="optInsKnowledge">How will you rate your instructor knowledge?</label>
+                    <input name="optInsKnowledge" id="optE" tabindex="12" type="radio" value="Excellent">Excellent
+                    <input name="optInsKnowledge" id="optG" tabindex="16" type="radio" value="Good">Good
+                    <input name="optInsKnowledge" id="optF" tabindex="13" type="radio" value="Fair">Fair
+                    <input name="optInsKnowledge" id="optNs" tabindex="15" type="radio" value="Not">Not satisfactory
+                </p>
+                <p>
+                    <label for="optRatHelpfulness">How will you rate your instructor Helpfulness?</label>
+                    <input name="optRatHelpfulness" tabindex="12" type="radio" value="Excellent">Excellent
+                    <input name="optRatHelpfulness" tabindex="14" type="radio" value="Good">Good
+                    <input name="optRatHelpfulness" tabindex="19" type="radio" value="Fair">Fair
+                    <input name="optRatHelpfulness" tabindex="10" type="radio" value="Not">Not satisfactory
+                </p>
+                <p>
+                    <label for="optInsCommunication">How will you rate your instructor Communication skills?</label>
+                    <input name="optInsCommunication" type="radio" value="Excellent">Excellent
+                    <input name="optInsCommunication" type="radio" value="Good">Good
+                    <input name="optInsCommunication" type="radio" value="Fair">Fair
+                    <input name="optInsCommunication" type="radio" value="Not">Not satisfactory
+                </p>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend>Course:</legend>
+                <p>
+                    <label for="optCourseOverall">How will you rate course (overall)?</label>
+                    <input name="optCourseOverall" type="radio" value="Excellent">Excellent
+                    <input name="optCourseOverall" type="radio" value="Good">Good
+                    <input name="optCourseOverall" type="radio" value="Fair">Fair
+                    <input name="optCourseOverall" type="radio" value="Not">Not satisfactory
+                </p>
+                <p>
+                    <label for="optCourseMaterials">How will you rate your course materials?</label>
+                    <input name="optCourseMaterials" type="radio" value="Excellent">Excellent
+                    <input name="optCourseMaterials" type="radio" value="Good">Good
+                    <input name="optCourseMaterials" type="radio" value="Fair">Fair
+                    <input name="optCourseMaterials" type="radio" value="Not">Not satisfactory
+                </p>
+                <p>
+                    <label for="optExpectations">How much did the course meet your expectations?</label>
+                    <input name="optExpectations" type="radio" value="Excellent">Excellent
+                    <input name="optExpectations" type="radio" value="Good">Good
+                    <input name="optExpectations" type="radio" value="Fair">Fair
+                    <input name="optExpectations" type="radio" value="Not">Not satisfactory
+                </p>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend>General Information</legend>
+                <p>
+                    <label for="optCourseOutline">Was the course outline explained in the beginning of your course?</label>
+                    <input name="optCourseOutline" id="optYes" type="radio" tabindex="34" value="Yes">Yes
+                    <input name="optCourseOutline" id="optNo" type="radio" tabindex="12" value="No">No
+                    <input name="optCourseOutline" id="optMaybe" type="radio" tabindex="45" value="Maybe">Maybe
+                    <input name="optCourseOutline" id="optNs" type="radio" tabindex="36" value="I don't know">I don't know
+                </p>
+                <p>
+                    <label for="optRecommendation">Would you recommend this course to someone you know?</label>
+                    <input name="optRecommendation" id="optYes" type="radio" tabindex="15" value="Yes">Yes
+                    <input name="optRecommendation" id="optNo" type="radio" tabindex="19" value="No">No
+                    <input name="optRecommendation" id="optMaybe" type="radio" tabindex="16" value="Maybe">Maybe
+                    <input name="optRecommendation" id="optNs" type="radio" tabindex="23" value="I don't know">I don't know
+                </p>
+            </fieldset>
+            <hr>
+            <input class="submit" name="btnSubmit" tabindex="39" type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <h5>Thank you. We pay attention to your feedback</h5>
+        <a href="https://www.centennialcollege.ca" class="about" target="_blank">about us</a>
+        <a href="registration@centennialcollege.ca" class="email" target="_blank">email</a>
+    </footer>
+    </div>
+</body>
+</html>
